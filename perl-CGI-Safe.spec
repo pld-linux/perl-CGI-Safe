@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Safe
+%define		pdir	CGI
+%define		pnam	Safe
 Summary:	CGI::Safe - safe method of using CGI.pm
 Summary(pl):	CGI::Safe - bezpieczny sposób u¿ywania CGI.pm
 Name:		perl-CGI-Safe
