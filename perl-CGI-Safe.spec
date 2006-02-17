@@ -8,13 +8,13 @@
 Summary:	CGI::Safe - safe method of using CGI.pm
 Summary(pl):	CGI::Safe - bezpieczny sposób u¿ywania CGI.pm
 Name:		perl-CGI-Safe
-Version:	1.24
+Version:	1.25
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6281f75824ee5c3dcab08ec11b150925
+# Source0-md5:	67e055249e96845adc8858bee0bba785
 %{?with_tests:BuildRequires:	perl-CGI >= 2.20}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
