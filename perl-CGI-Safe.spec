@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Safe
 Summary:	CGI::Safe - safe method of using CGI.pm
-Summary(pl):	CGI::Safe - bezpieczny sposÛb uøywania CGI.pm
+Summary(pl.UTF-8):   CGI::Safe - bezpieczny spos√≥b u≈ºywania CGI.pm
 Name:		perl-CGI-Safe
 Version:	1.25
 Release:	1
@@ -27,11 +27,11 @@ This module makes running the CGI environment safer by eliminating
 dangerous %%ENV variables and presetting certain CGI.pm globals (such
 as disabling uploads by default and limiting POST data size).
 
-%description -l pl
-Ten modu≥ czyni uruchamianie ∂rodowiska CGI bezpieczniejszym poprzez
+%description -l pl.UTF-8
+Ten modu≈Ç czyni uruchamianie ≈õrodowiska CGI bezpieczniejszym poprzez
 usuwanie niebezpiecznych zmiennych z %%ENV i ustawianie kilku
-zmiennych globalnych CGI.pm (takich jak domy∂lne wy≥±czenie
-przysy≥ania danych czy ograniczenie rozmiaru danych POST).
+zmiennych globalnych CGI.pm (takich jak domy≈õlne wy≈ÇƒÖczenie
+przysy≈Çania danych czy ograniczenie rozmiaru danych POST).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
