@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Safe
 Summary:	CGI::Safe - safe method of using CGI.pm
-Summary(pl.UTF-8):   CGI::Safe - bezpieczny sposób używania CGI.pm
+Summary(pl.UTF-8):	CGI::Safe - bezpieczny sposób używania CGI.pm
 Name:		perl-CGI-Safe
 Version:	1.25
 Release:	1
