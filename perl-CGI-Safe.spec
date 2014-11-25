@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	Safe
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Safe - safe method of using CGI.pm
 Summary(pl.UTF-8):	CGI::Safe - bezpieczny sposób używania CGI.pm
 Name:		perl-CGI-Safe
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	67e055249e96845adc8858bee0bba785
+URL:		http://search.cpan.org/dist/CGI-Safe/
 %{?with_tests:BuildRequires:	perl-CGI >= 2.20}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
