@@ -4,7 +4,6 @@
 
 %define		pdir	CGI
 %define		pnam	Safe
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Safe - safe method of using CGI.pm
 Summary(pl.UTF-8):	CGI::Safe - bezpieczny sposób używania CGI.pm
 Name:		perl-CGI-Safe
