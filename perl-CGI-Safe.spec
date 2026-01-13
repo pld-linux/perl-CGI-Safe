@@ -8,7 +8,7 @@ Summary:	CGI::Safe - safe method of using CGI.pm
 Summary(pl.UTF-8):	CGI::Safe - bezpieczny sposób używania CGI.pm
 Name:		perl-CGI-Safe
 Version:	1.25
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
